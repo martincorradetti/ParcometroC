@@ -1,8 +1,8 @@
 #include <stdio.h>
 
-char zona[3];
-double costoOrario;
+char zona[4];
 int ore;
+double costoOrario;
 
 int main(void) {
 	printf("Inserire zona: ");
@@ -15,5 +15,5 @@ int main(void) {
 	scanf("%d", &ore);
   
 	printf("Il ticket ha un costo totale di %.2lf\n", costoOrario * ore);
-  return 0;
+	return 0;
 }
